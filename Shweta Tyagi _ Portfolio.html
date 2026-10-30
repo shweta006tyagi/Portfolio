@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- saved from url=(0126)file:///C:/Users/shweta/AppData/Local/Temp/555d6331-8426-4470-a318-923d73768a2d_portfolio.zip.a2d/portfolio/index.html#chatbot -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Shweta Tyagi, B.Tech CSE (Core) second-year student.">
+  <title>Shweta Tyagi | Portfolio</title>
+  <link rel="stylesheet" href="file:///C:/Users/shweta/AppData/Local/Temp/555d6331-8426-4470-a318-923d73768a2d_portfolio.zip.a2d/portfolio/style.css">
+  <link rel="stylesheet" href="file:///C:/Users/shweta/AppData/Local/Temp/555d6331-8426-4470-a318-923d73768a2d_portfolio.zip.a2d/portfolio/chatbot.css">
+</head>
+<body>
+  <nav class="topbar" aria-label="Main navigation">
+    <a class="brand" href="file:///C:/Users/shweta/AppData/Local/Temp/555d6331-8426-4470-a318-923d73768a2d_portfolio.zip.a2d/portfolio/index.html#home">Shweta Tyagi</a>
+    <ul class="nav-links">
+      <li><a href="file:///C:/Users/shweta/AppData/Local/Temp/555d6331-8426-4470-a318-923d73768a2d_portfolio.zip.a2d/portfolio/index.html#home">Home</a></li>
+      <li><a href="file:///C:/Users/shweta/AppData/Local/Temp/555d6331-8426-4470-a318-923d73768a2d_portfolio.zip.a2d/portfolio/index.html#about">About Me</a></li>
+      <li><a href="file:///C:/Users/shweta/AppData/Local/Temp/555d6331-8426-4470-a318-923d73768a2d_portfolio.zip.a2d/portfolio/index.html#skills">Skills</a></li>
+      <li><a href="file:///C:/Users/shweta/AppData/Local/Temp/555d6331-8426-4470-a318-923d73768a2d_portfolio.zip.a2d/portfolio/index.html#projects">Projects</a></li>
+      <li><a href="file:///C:/Users/shweta/AppData/Local/Temp/555d6331-8426-4470-a318-923d73768a2d_portfolio.zip.a2d/portfolio/index.html#chatbot">AI Chatbot</a></li>
+      <li><a href="file:///C:/Users/shweta/AppData/Local/Temp/555d6331-8426-4470-a318-923d73768a2d_portfolio.zip.a2d/portfolio/index.html#contact">Contact</a></li>
+    </ul>
+    <button id="themeToggle" type="button">Switch to Dark Mode</button>
+  </nav>
+
+  <header id="home" class="hero">
+    <div class="avatar" role="img" aria-label="Initials of Shweta Tyagi">ST</div>
+    <div>
+      <h1>Shweta Tyagi</h1>
+      <p class="tagline">B.Tech CSE student building useful tech for farms, oceans and everyday learning</p>
+      <p class="hero-links">
+        <a class="btn" href="file:///C:/Users/shweta/AppData/Local/Temp/555d6331-8426-4470-a318-923d73768a2d_portfolio.zip.a2d/portfolio/index.html#projects">View my projects</a>
+        <a class="btn btn-outline" id="githubLink" href="file:///C:/Users/shweta/AppData/Local/Temp/555d6331-8426-4470-a318-923d73768a2d_portfolio.zip.a2d/portfolio/index.html#" target="_blank" rel="noopener">GitHub profile</a>
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>
+        I'm a second-year B.Tech Computer Science and Engineering (Core) student and a keen learner who likes to
+        understand how technology works, not just how to write it. I enjoy turning real problems into working software.
+      </p>
+      <p>
+        My two major projects, AGRO-VAANI for farmers and ECORA for marine conservation, show the direction I want to
+        grow in: applications that solve problems in agriculture and the environment. Alongside them, I use C, C++,
+        Advanced Excel and prompt engineering to learn faster and build better.
+      </p>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+      <ul class="skill-list">
+        <li>C Programming</li>
+        <li>C++ Programming</li>
+        <li>Advanced Excel</li>
+        <li>Prompt Engineering</li>
+      </ul>
+      <p class="muted">Education: B.Tech, Computer Science and Engineering (Core), 2nd year.</p>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">My Projects</h2>
+      <div class="search-bar">
+        <label for="projectSearch" class="sr-only">Search projects by name or technology</label>
+        <input type="search" id="projectSearch" placeholder="Search by name or technology: Python, Quiz, Book...">
+        <p id="projectCount" role="status" aria-live="polite"></p>
+      </div>
+      <div id="projectGrid" class="project-grid"></div>
+      <p id="noResults" class="muted" hidden="">No projects match that search. Try "Python", "Quiz" or "Book".</p>
+    </section>
+
+    <section id="chatbot" class="ai-chat" aria-labelledby="chat-heading">
+      <h2 id="chat-heading">Ask My AI Assistant</h2>
+      <p>Ask about my skills, projects or how to contact me.</p>
+      <div id="chatMessages" aria-live="polite"></div>
+      <div class="chat-controls">
+        <input type="text" id="userInput" placeholder="e.g. What is AGRO-VAANI?" maxlength="500">
+        <button id="sendButton" type="button">Send</button>
+      </div>
+      <p id="chatStatus" role="status"></p>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Information</h2>
+      <p>Email: <a href="mailto:zxc.25bcon0101@jecrc.edu.in">zxc.25bcon0101@jecrc.edu.in</a></p>
+      <p>GitHub: <a id="githubLink2" href="file:///C:/Users/shweta/AppData/Local/Temp/555d6331-8426-4470-a318-923d73768a2d_portfolio.zip.a2d/portfolio/index.html#" target="_blank" rel="noopener">My GitHub profile</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Shweta Tyagi</p>
+  </footer>
+
+  <script src="file:///C:/Users/shweta/AppData/Local/Temp/555d6331-8426-4470-a318-923d73768a2d_portfolio.zip.a2d/portfolio/config.js"></script>
+  <script src="file:///C:/Users/shweta/AppData/Local/Temp/555d6331-8426-4470-a318-923d73768a2d_portfolio.zip.a2d/portfolio/script.js"></script>
+  <script src="file:///C:/Users/shweta/AppData/Local/Temp/555d6331-8426-4470-a318-923d73768a2d_portfolio.zip.a2d/portfolio/chatbot.js"></script>
+
+
+</body></html>
